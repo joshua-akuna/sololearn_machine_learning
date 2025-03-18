@@ -4,7 +4,7 @@ import pandas as pd
 
 if __name__=="__main__":
     # reads data set and converts it to a dataframe
-    df = pd.read_csv('titanic.csv')
+    df = pd.read_csv('../titanic.csv')
     # a list of columns data to select from the data frame
     cols_headers = ['Fare', 'Age']
     # selects the columns from the data frame
